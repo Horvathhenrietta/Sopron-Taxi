@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A Lőverektől a Tűztoronyig, bárhol is vagy a hűség városában, a
+      Sopron Taxi mindig egy kényelmes, gyors, és megbízható fuvart kínál
+      utasainak!"
+    />
+    <title>Sopron Taxi</title>
+    <!-- ION ICONS -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<!-- FONTS -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+<!-- STYLE.CSS -->
+    <link href="generals.css" rel="stylesheet" />
+    <link href="sections.css" rel="stylesheet" />
+    <link href="queries.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/6ba88bd8de.js"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="script.js"></script>
+  </head>
+
+  
+  <body>
+    <header class="header">
+      <div class="nav-cont">
+        <a class="logo" href="#"> SOPRON TAXI </a>
+        <nav class="main-nav">
+          <ul class="main-nav-list">
+            <li>
+              <a class="main-nav-link" href="#services-sect"
+                >Szolgáltatásaink</a
+              >
+            </li>
+            <li><a class="main-nav-link" href="#why-sect">Rólunk</a></li>
+            <li><a class="main-nav-link" href="#contact-sect">Kapcsolat</a></li>
+            <li><a href="tel:+3699313313" class="cta-btn">Hívj minket</a></li>
+          </ul>
+        </nav>
+
+        <button class="btn-mobile-nav">
+          <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+          <ion-icon class="icon-mobile-nav hidden" name="close"></ion-icon>
+        </button>
+        
+      </div>
+    </header>
+    <!-- HERO SECTION -->
+    <section class="section hero-section">
+      <div class="container hero-cont">
+        <div class="hero-illustration">
+          <img class="hero-ill" src="img/hero-backg.webp" alt="Kép, egy taxiban ülő lányról" />
+        </div>
+        <div class="hero-text">
+          <h1 class="hero-title">Megújul a <span>Sopron Taxi</span></h1>
+          <p class="hero-description">
+            A Lőverektől a Tűztoronyig, bárhol is vagy a hűség városában, a
+            Sopron Taxi mindig egy kényelmes, gyors, és megbízható fuvart kínál
+            utasainak!
+          </p>
+          <a class="cta-btn" href="tel:+3699313313">Hívj minket</a>
+          <!-- SOCIAL LINKS -->
+          <div class="social-link-container container">
+            <a
+              target="_blank"
+              href="https://www.facebook.com/SOPRON-TAXI-113747953323256"
+              ><img class="social-img" alt="facebook-ikon" src="img/Facebook.svg"
+            /></a>
+            <a
+              target="_blank"
+              href="https://www.google.com/search?tbs=lf:1,lf_ui:14&tbm=lcl&sxsrf=ALiCzsYU50nroUzT3WCNgthGzPIVZu9e_w:1654344496084&q=sopron+taxi&rflfq=1&num=10&rldimm=12229626955008191716#rlfi=hd:;si:12229626955008191716;mv:[[47.6945923,16.6203725],[47.676011599999995,16.565648499999998]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!2m4!1e17!4m2!17m1!1e2,lf:1"
+              ><img class="social-img" alt="Google ikon" src="img/Google.png"
+            /></a>
+            <a
+              target="_blank"
+              href="instagram.com"
+              ><img class="social-img" alt="Instagram ikon" src="img/instagram.png"
+            /></a>
+          </div>
+        </div>
+
+        
+
+        
+        
+      </div>
+    </section>
+    <!-- SUPPORTED PAYMENT METHODS -->
+    <section class="section section-supported">
+      <h2 class="supported-title title-secondary">
+        Autóinkban bankkártyával is fizethetsz!
+      </h2>
+      <div class="card-icons">
+        <i class="fa-brands fa-cc-visa"></i>
+        <i class="fa-brands fa-cc-mastercard"></i>
+        <i class="fa-brands fa-cc-amex"></i>
+      </div>
+    </section>
+    
+
+    <!-- SERVICES SECTION -->
+    <section class="section services-section" id="services-sect">
+      
+      <div class="container grid cards-grid">
+        <div class="services-img-cont">
+          <img class="services-img" alt="Egy nő taxiban" src="img/services.webp"  />
+        </div>
+        <div class="services-big-card">
+          <!-- SERVICE01 -->
+          <h2 class="title-secondary service-main-title">Szolgáltatásaink</h2>
+          <div class="services-card">
+            <div class="service-icon"><ion-icon  name="location"></ion-icon></div>
+            <div class="service-card-text">
+            <h3 class="service-title">Taxiszolgáltatás</h3>
+            <p class="service-desc">Gyorsan és kényelmesen szállítunk el az általad megadott helyre 100km-en belül!</p>
+          </div>
+          </div>
+          <!-- SERVICES 02 -->
+          <div class="services-card">
+            <div class="service-icon"><ion-icon name="airplane"></ion-icon></div>
+            <div class="service-card-text">
+            <h3 class="service-title">Reptéri transzfer</h3>
+            <p class="service-desc">Akár előre megbeszélt időpontban állunk rendelkezésedre, és szállítunk el a schwechati repülőtérre!</p>
+          </div>
+          </div>
+          <!-- SERVICES 03 -->
+          <div class="services-card">
+            <div class="service-icon"><ion-icon name="clipboard"></ion-icon></div>
+            <div class="service-card-text">
+            <h3 class="service-title">Poggyászszállítás</h3>
+            <p class="service-desc">Ezek mellett gondoskodunk a csomagjaidról is!</p>
+          </div>
+          </div>
+         
+
+        </div>
+      </div>
+
+    </section>
+    <!-- SECTION WHY CHOOSE US? -->
+    <section class="section section-why" id="why-sect">
+       <h2 class="title-secondary why-title">Miért válassz minket?</h2> 
+      <div class="why-cont container grid grid-3-cols">
+        <!-- CARD 1 -->
+        <div class="why-card">
+          <ion-icon name="people"></ion-icon>
+          <h3 class="why-card-title">Profi sofőrök</h3>
+          <p class="why-card-text">
+            A nálunk dolgozó söfőrök több éves tapasztalattal rendelkezdnek, így
+            biztosítani tudjuk, hogy minden alkalommal biztonságos szolgáltatást
+            nyújtanak.
+          </p>
+        </div>
+        <!-- card 2 -->
+        <div class="why-card">
+          <ion-icon name="wallet"></ion-icon>
+          <h3 class="why-card-title">Kompetitív árak</h3>
+          <p class="why-card-text">
+            Minőségi szolgáltalás nagyszerű árakon. Mindig fix tarifával
+            dolgozunk!
+          </p>
+        </div>
+        <!-- WHY CARD 3 -->
+        <div class="why-card">
+          <ion-icon name="time"></ion-icon>
+          <h3 class="why-card-title">Megbízható szolgáltatás</h3>
+          <p class="why-card-text">
+            Mindig pontosan érkezünk a megadott a helyre, a megadott időpontban.
+          </p>
+        </div>
+      </div>
+      
+    </section>
+
+    <section class="prices-section section">
+      <h1 class="title-secondary prices-title">Áraink</h1>
+      <div class="container table-cont">
+        <table class="price-table">
+          <thead>
+            <tr>
+              
+              <td></td>
+              <td>Alapdíj</td>
+              <td>Útdíj</td>
+              <td>Idődíj</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Külföldi távolsági</td>
+              <td>5000,-</td>
+              <td>600,-</td>
+              <td>70,-</td>
+            </tr>
+            <tr>
+              <td>Belföldi távolsági</td>
+              <td>1000,-</td>
+              <td>600,-</td>
+              <td>70,-</td>
+            </tr>
+            <tr>
+              <td>Városi tarifa</td>
+              <td>2000,-</td>
+              <td>200,-</td>
+              <td>70,-</td>
+            </tr>
+            <tr>
+              <td>Kisállat szállítás</td>
+              <td>2600,-</td>
+              <td>-</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td>Kiemelt városi tarifa</td>
+              <td>1950,-</td>
+              <td>200,-</td>
+              <td>100,-</td>
+            </tr>
+            <tr>
+              <td>Kiemelt távolsági tarifa</td>
+              <td>1950,-</td>
+              <td>600,-</td>
+              <td>100,-</td>
+            </tr>
+          </tbody>
+          </table>
+      </div>
+    </section>
+    <!-- FOOTER -->
+    <footer class="section section-contacts" id="contact-sect">
+      <div class="title-container">
+      <h2 class="title-secondary">Lépj velünk kapcsolatba!</h2>
+      <a href="tel:+3699313313" class="cta-btn">Hívj minket</a>
+    </div>
+      <div class="container grid grid-3-cols">
+        <div class="contacts-social">
+          <h3 class="contact-title">Social media</h3>
+          <div class="flex-cont">
+        <a
+            target="_blank"
+            href="https://www.facebook.com/SOPRON-TAXI-113747953323256"
+            ><img class="social-img" alt="Facebook-ikon" src="img/Facebook.svg"
+          /></a>
+          <a
+            target="_blank"
+            href="https://www.google.com/search?tbs=lf:1,lf_ui:14&tbm=lcl&sxsrf=ALiCzsYU50nroUzT3WCNgthGzPIVZu9e_w:1654344496084&q=sopron+taxi&rflfq=1&num=10&rldimm=12229626955008191716#rlfi=hd:;si:12229626955008191716;mv:[[47.6945923,16.6203725],[47.676011599999995,16.565648499999998]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!2m4!1e17!4m2!17m1!1e2,lf:1"
+            ><img class="social-img" alt="Google-ikon" src="img/Google.png"
+          /></a>
+          <a
+            target="_blank"
+            href="instagram.com"
+            ><img class="social-img" alt="Instagram-ikon" src="img/instagram.png"
+          /></a>
+        </div>
+      </div>
+      <div class="contacts-payments">
+        <h3 class="contact-title">Fizetési módok</h3>
+        <div class="flex-cont">
+          <img class="social-img" alt="Visa" src="img/visa.png"/>
+          <img class="social-img" alt="Mastercard és maestro" src="img/maestro.png"/>
+          <img class="social-img" alt="American express" src="img/american-express.png"/>
+          <img class="social-img" alt="Készpént illusztráció" src="img/money.png"/>
+        </div>
+      </div>
+      <div class="contacts-payments">
+        <h2 class="contact-title">Cégünkről</h2>
+        <ul class="footer-links">
+          <li>
+            <a class="footer-link" href="#services-sect"
+              >Szolgáltatásaink</a
+            >
+          </li>
+          <li><a class="footer-link" href="#why-sect">Rólunk</a></li>
+          <li><a class="footer-link" href="#contact-sect">Kapcsolat</a></li>
+          <li><a href="tel:+3699313313" class="footer-link">Hívj minket</a></li>
+          <li><a href="#" class="footer-link">Adatkezelés</a></li>
+        </ul>
+      </div>
+          
+    </footer>
+      
+    
+  </body>
+</html>
