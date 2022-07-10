@@ -12,6 +12,7 @@ opencloseBtns.forEach((btn) => btn.addEventListener('click', openMenu));
 navlinks.forEach((link) =>
   link.addEventListener('click', function () {
     navigation.classList.remove('nav-open');
+    opencloseBtns.forEach((btn) => btn.classList.toggle('hidden'));
   })
 );
 
