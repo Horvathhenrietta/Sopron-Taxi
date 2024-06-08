@@ -89,6 +89,9 @@
   .cta-btn:visited {
     font-size: 2.4rem;
   }
+  .tarifak-img {
+    max-width: 100%;
+  }
 }
 
 /**************************/
